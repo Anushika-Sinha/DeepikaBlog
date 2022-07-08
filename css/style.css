@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    padding: 0 250px;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    flex-direction: column;
+}
+
+#navbar #logo_black{
+    width: 220px;
+    padding: 20px auto 30px auto;
+}
+
+#navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar li{
+    list-style: none;
+    padding: 50px 10px;
+}
+
+#navbar li a{
+    text-decoration: none;
+    color: black;
+}
+
+#top{
+    display: flex;
+}
+
+#top li{
+    list-style: none;
+}
+
+#top li a{
+    text-decoration: none;
+    color: black;
+}
+
+.quotes{
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.quotes a{
+    font-size: 1.5rem;
+    font-family: 'Crimson Pro', serif;
+}
+
+#mid{
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#mid a{
+    text-align: end;
+    text-decoration: none;
+    color: black;
+}
+
+#mid div{
+    display: flex;
+    flex-direction: column;
+    margin: 50px 200px;
+    border: 1px solid black;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+#bottom{
+    display: flex;
+    flex-direction: column;
+}
+
+#bottom ul{
+    display: flex;
+}
+
+#bottom li{
+    list-style: none;
+    padding: 100px 10px 0 10px;
+}
+
+#bottom li img{
+    width: 100%;
+}
+
+.card-text{
+    font-family: 'Crimson Pro', serif;
+    padding: 5px 0;
+}
+
+#top2{
+    background-color: black;
+    color: white;
+}
+
+#top2 div{
+    display: flex;
+    flex-flow: column wrap;
+    height: 10px;
+    align-content: space-between;
+    padding-top: 20px;
+}
+
+
+#top2 ul{
+    display: flex;
+}
+
+#top2 li {
+    list-style: none;
+    padding: 50px 10px 0 10px;
+}
+
+#top2 li img{
+    width: 100%;
+}
